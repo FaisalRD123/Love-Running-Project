@@ -39,12 +39,27 @@ h1 {
     color: #252525;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+/* Menu padding */
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
 /*main*/
 main {
     background-color: lightblue;
     /* Make main element take any surplus place to push the footer down */
     flex: 1 0 auto;
 }
+
 /*footer*/
 footer {
     background-color: orange;
